@@ -4,12 +4,14 @@ public class Main {
 		Prostokat p2 = new Prostokat(new Punkt(2, 1), 4 , 3);
 		Kolo k1 = new Kolo(new Punkt(0, 0), 3);
 		Kolo k2 = new Kolo(new Punkt(5, 5), 2);
-		
+		Romb r1 = new Romb(new Punkt(1, 1), 3, 2);
+
 		Model m = new Model();
 		m.dodaj(p1);
 		m.dodaj(p2);
 		m.dodaj(k1);
 		m.dodaj(k2);
+    m.dodaj(r1);
 		
 		System.out.println(m);
 		
